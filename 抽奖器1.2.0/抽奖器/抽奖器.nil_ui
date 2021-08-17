@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>281</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bg_2">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>291</width>
+      <height>401</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgb(255, 255, 255)</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: #0078D4;font: bold normal 20px &quot;Microsoft YaHei&quot;;color: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bg_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>50</y>
+      <width>241</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	border-radius:3px;
+	background-color: #edebe9;
+}
+
+QLabel::default{
+	border-radius:3px;
+	background-color: #edebe9;
+}
+
+QLabel::hover{
+	border-radius:3px;
+	background-color: #B3D7F2;
+}
+
+#by 7dull_</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>by 7dull_</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	color: #FFFFFF;
+	border-radius:3px;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QLabel::default{
+	color: #FFFFFF;
+	border-radius:3px;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QLabel::hover{
+	color: #FFFFFF;
+	border-radius:3px;
+	background-color: #0067B6;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#by 7dull_</string>
+    </property>
+    <property name="text">
+     <string>  抽奖:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_1">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>0</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>关闭退出</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-style: solid;
+	border-radius:8px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 30px &quot;Microsoft YaHei&quot;;
+	text-align: center;
+	padding-bottom: 5px;
+}
+
+QPushButton::default{
+    border-style: solid;
+	border-radius:8px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 30px &quot;Microsoft YaHei&quot;;
+	text-align:  center;
+	padding-bottom: 5px;
+}
+
+QPushButton:hover{
+    border-style: solid;
+	border-radius:8px;
+	color: #FFFFFF;
+	background-color: #E74856;
+	font: bold normal 30px &quot;Microsoft YaHei&quot;;
+	text-align:  center;
+	padding-bottom: 5px;
+}
+
+QPushButton:pressed{
+    border-style: solid;
+	border-radius:8px;
+	color: #FFFFFF;
+	background-color: #C50F1F;
+	font: bold normal 30px &quot;Microsoft YaHei&quot;;
+	text-align:  center;
+	padding-bottom: 5px;
+}
+
+QToolTip {
+    background-color: #C50F1F;
+	border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#By 7dull_</string>
+    </property>
+    <property name="text">
+     <string>×</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_2">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>0</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>前往Github(开源)</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-style: solid;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 25px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton::default{
+    border-style: solid;
+   	color: #FFFFFF;
+    border-radius:3px;
+	background-color: #0078D4;
+	font: bold normal 25px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:hover{
+    border-style: solid;
+	color: #B3D7F2;
+	background-color: #0078D4;
+	font: bold normal 25px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:pressed{
+    border-style: solid;
+	color: #0067B6;
+	background-color: #0078D4;
+	font: bold normal 25px &quot;Microsoft YaHei&quot;;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#By 7dull_</string>
+    </property>
+    <property name="text">
+     <string> 版本：1.2.0</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="e_1">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>141</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>awa？看我干嘛</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+	border: 2px solid #0078D4;
+	border-radius: 5px;
+	padding-left: 1px;
+	background-color: #ffffff;
+	color: #767676;
+	font: bold normal 13px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QLineEdit::default{
+	border: 2px solid #0078D4;
+	border-radius: 5px;
+	padding-left: 1px;
+	background-color: #ffffff;
+	color: #767676;
+	font: bold normal 13px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QLineEdit:hover{
+	border: 2px solid #0078D4;
+	border-radius: 5px;
+	padding-left: 1px;
+	background-color: #FFFFFF;
+	color: #0C0C0C;
+	font: bold normal 13px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QLineEdit:pressed{
+	border: 2px solid #0078D4;
+	border-radius:3px;
+	color: #0C0C0C;
+	background-color: #B3D7F2;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#7dull_</string>
+    </property>
+    <property name="placeholderText">
+     <string>请输入...</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>抽！</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton::default{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:hover{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0067B6;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:pressed{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #004578;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#By 7dull_</string>
+    </property>
+    <property name="text">
+     <string>开抽</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>120</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>参与者-&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel{
+	color: #FFFFFF;
+	border-radius:3px;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QLabel::default{
+	color: #FFFFFF;
+	border-radius:3px;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QLabel::hover{
+	color: #FFFFFF;
+	border-radius:3px;
+	background-color: #0067B6;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#by 7dull_</string>
+    </property>
+    <property name="text">
+     <string> 参与者:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>200</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>统计</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton::default{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:hover{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0067B6;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:pressed{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #004578;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#By 7dull_</string>
+    </property>
+    <property name="text">
+     <string>统计</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_5">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>90</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>添加至名单</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton::default{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:hover{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0067B6;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:pressed{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #004578;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#By 7dull_</string>
+    </property>
+    <property name="text">
+     <string>添加</string>
+    </property>
+   </widget>
+   <widget class="QTextBrowser" name="e_2">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>120</y>
+      <width>151</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextBrowser {
+	border: 2px solid #0078D4;
+	border-radius: 5px;
+	padding-left: 1px;
+	background-color: #ffffff;
+	color: #767676;
+	font: bold normal 13px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QTextBrowser::default{
+	border: 2px solid #0078D4;
+	border-radius: 5px;
+	padding-left: 1px;
+	background-color: #ffffff;
+	color: #767676;
+	font: bold normal 13px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QTextBrowser:hover{
+	border: 2px solid #0078D4;
+	border-radius: 5px;
+	padding-left: 1px;
+	background-color: #FFFFFF;
+	color: #0C0C0C;
+	font: bold normal 13px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QTextBrowser:pressed{
+	border: 2px solid #0078D4;
+	border-radius:3px;
+	color: #0C0C0C;
+	background-color: #B3D7F2;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+    selection-background-color: #B3D7F2;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#7dull_</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="b_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>61</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;清空列表&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton::default{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0078D4;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:hover{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #0067B6;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QPushButton:pressed{
+    border-style: solid;
+	border-radius:3px;
+	color: #FFFFFF;
+	background-color: #004578;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+}
+
+QToolTip {
+    background-color: #0078D4;
+    border-radius:3px;
+	font: bold normal 15px &quot;Microsoft YaHei&quot;;
+	color: #FFFFFF;
+}
+
+#By 7dull_</string>
+    </property>
+    <property name="text">
+     <string>清空</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
